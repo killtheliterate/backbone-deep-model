@@ -1,7 +1,7 @@
 ;(function(factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD
-        define(['underscore', 'backbone'], factory);
+        define(['lodash', 'backbone'], factory);
     } else if (typeof exports === 'object') {
         // CommonJS
         module.exports = factory(require('underscore'), require('backbone'));
