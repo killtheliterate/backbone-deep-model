@@ -4,7 +4,7 @@
         define(['lodash', 'backbone'], factory);
     } else if (typeof exports === 'object') {
         // CommonJS
-        module.exports = factory(require('underscore'), require('backbone'));
+        module.exports = factory(require('lodash'), require('backbone'));
     } else {
         // globals
         factory(_, Backbone);
